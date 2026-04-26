@@ -1,50 +1,55 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    font-size: large;
 }
 
-.center {
-    text-align: center;
+h1 {
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: x-large;
 }
 
 div {
     border-radius: 10px;
     border-width: 5px;
-    border-color: coral;
+    border-color: rgb(18, 131, 46);
     border-style: inset;
 
     margin-top: 10px;
 
     padding: 5px;
 
-    background-image: linear-gradient(to bottom, rgb(243, 172, 146), rgb(255, 159, 142))
+    background-image: linear-gradient(to bottom, rgb(138, 247, 111), rgb(197, 233, 97))
 }
 
 body {
-    background-color: coral;
+    background-color: rgb(37, 35, 34);
 }
 
 #mainstuff {
-    background-color: rgb(243, 172, 146);
-    
     width: 50%;
     margin: auto;
     padding: 2.5%;
 }
 
 header {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(37, 35, 34);
 
     text-align: center;
 
+    color: white;
+
     border-radius: 50px;
     border-width: 5px;
-    border-color: coral;
+    border-color: rgb(18, 131, 46);
     border-style: inset;
 }
 
 #ptlogo {
-    height: 75%;
-    width: 75%;
+    height: 30%;
+    width: 30%;
 }
 
 #theButton {
@@ -59,17 +64,19 @@ button {
     width: 100%;
     padding: 10px;
 
-    background-color: rgb(97, 136, 32);
+    background-color: rgb(56, 117, 37);
+
+    color: rgb(221, 236, 196);
 
     border-width: 5px;
     border-radius: 10px;
-    border-color: rgb(73, 103, 25);
+    border-color: rgb(221, 236, 196);
     border-style: inset;
 
     font-weight: bold;
 }
 button:hover {
-    background-color: rgb(89, 124, 33);
+    background-color: rgb(48, 105, 31);
     cursor: pointer;
 }
 
