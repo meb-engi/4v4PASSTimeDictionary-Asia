@@ -102,8 +102,15 @@ footer {
 
 /*center this poggers PLEASE im noob*/
 .gif {
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 400px;
+
+    border-radius: 10px;
+}
+
+video {
+    height: auto;
+    width: 400px;
 
     border-radius: 10px;
 }
