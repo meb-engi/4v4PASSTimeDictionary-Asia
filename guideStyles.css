@@ -103,3 +103,10 @@ button:hover {
 
     margin-top: 10px;
 }
+
+video {
+    height: auto;
+    width: 400px;
+
+    border-radius: 10px;
+}
