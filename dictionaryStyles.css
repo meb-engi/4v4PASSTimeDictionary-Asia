@@ -22,11 +22,11 @@
 
     --text: white;
 
-    --solly: rgb(189, 100, 100);
-    --demo: rgb(101, 141, 211);
-    --med: rgb(223, 183, 65);
-    --xplosive: rgb(228, 152, 71);
-    --multi: rgb(105, 170, 74);
+    --solly: rgb(174, 13, 13);
+    --demo:rgb(63, 116, 204);
+    --med: rgb(245, 194, 51);
+    --xplosive: rgb(204, 149, 93);
+    --multi: rgb(97, 161, 69);
 }
 * {
     font-family: 'Courier New', Courier, monospace;
