@@ -10,10 +10,13 @@
     <script type="text/javascript" src="javaScript/preloader.js" defer></script>
 </head>
 <body>
-
+    
     <div id="preloader" style="text-align: center;"><h1>hi ts is still loading</h1><br><img src="images/bonsdance.webp" alt="bonskirk" style="margin: auto;"></div>
 
     <div id="mainstuff">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Go to top</button>
+        <script type="text/javascript" src="javaScript/scrollToTop.js" defer></script>
+
         <header>
             <button id="theme-switch" style="background-color: rgb(37, 35, 34);">
                 <img src="images/dark_mode.svg" id="darkicon">
@@ -488,7 +491,7 @@
                 <li>
                     <h3 style="background-color: var(--multi);">Baiting</h3>
                     <p style="clear: right;">Positioning yourself forward when your team is on defense</p>
-                    <img src="images/bait.png">
+                    <img src="images/bait.webp" id="bait">
                 </li>
                 <li>
                     <h3 style="background-color: var(--multi);">Cherry Picking</h3>
@@ -541,6 +544,7 @@
                 </a>
         </footer>
     </div>
+    <img id="bglogo">
     <script src="javaScript/videoPlayer.js"></script>
 </body>
 </html>
