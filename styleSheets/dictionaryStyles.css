@@ -52,7 +52,8 @@
     width: 100%;
     position: fixed;
     z-index: 100;
-
+    top: 0;
+    left: 0;
     border-radius: 0px;
     border-width: 0px;
     border-color: none;
@@ -60,8 +61,6 @@
 
     margin: 0px;
     padding: 0px;
-
-    /* poggers fix the gap lmaoaoaoao */
 }
 
 h1 {
@@ -165,9 +164,10 @@ footer {
 
 /* code by sashalegeughsse */
 video { 
-    display: block;
+    display: flex;
+    justify-content: center;
     margin: 10px auto;
-    width: 60vw;
+    width: 100%;
     height: auto;
     max-width: 800px;
 
