@@ -4,15 +4,15 @@ const themeSwitch = document.getElementById("theme-switch")
 const enableDarkMode = () => {
     document.body.classList.add("darkmode")
     localStorage.setItem("darkmode", "active")
-    document.getElementById("apta").src = "images/APTA_LOGO.webp"; //changes logo
-    document.getElementById("bglogo").src = "images/APTA_LOGO.webp";  //changes logo
+    document.getElementById("apta").src = "images/logo/APTA_LOGO.webp"; //changes logo
+    document.getElementById("bglogo").src = "images/logo/APTA_LOGO.webp";  //changes logo
 }
 
 const disableDarkMode = () => {
     document.body.classList.remove("darkmode")
     localStorage.setItem("darkmode", null)
-    document.getElementById("apta").src = "images/APTA_LOGO_light.webp";  //changes logo
-    document.getElementById("bglogo").src = "images/OCE_LOGO.webp";  //changes logo
+    document.getElementById("apta").src = "images/logo/APTA_LOGO_light.webp";  //changes logo
+    document.getElementById("bglogo").src = "images/logo/OCE_LOGO.webp";  //changes logo
 }
 
 if (darkmode === "active") enableDarkMode() 

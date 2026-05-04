@@ -26,6 +26,8 @@
     --preloader: rgb(255, 255, 255); /* preloader background color */
 
     --msOpacity: 0.9; /* mainstuff opacity */
+
+    transition: all 0.3s ease;
 }  
 .darkmode{
     /* bg colors */
@@ -55,6 +57,8 @@
     --preloader: rgb(0, 0, 0); /* preloader background color */
 
     --msOpacity: 0.95; /* mainstuff opacity */
+
+    transition: all 0.3s ease;
 }
 
 *{
@@ -318,4 +322,11 @@ a {
 
     font-weight: bold;
     text-align: center;
+}
+
+.banner {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
 }
