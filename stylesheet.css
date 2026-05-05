@@ -54,7 +54,7 @@
     --btnhover: rgb(15, 15, 14);
     --btnactive: rgb(0, 0, 0);
 
-    --preloader: rgb(0, 0, 0); /* preloader background color */
+    --preloader: rgb(26, 26, 26); /* preloader background color */
 
     --msOpacity: 0.95; /* mainstuff opacity */
 
@@ -176,6 +176,13 @@ header {
     justify-content: center;
 
     margin-top: 45px;
+}
+
+#theButtoned {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
 }
 
 
@@ -325,8 +332,45 @@ a {
 }
 
 .banner {
-    width: 75%;
+    width: 75vw;
     height: auto;
     display: block;
-    margin: 20px auto;
+    margin: auto;
+}
+
+@keyframes spinAnimation {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.throbber {
+    animation-name: spinAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--btncolor);
+    padding: 25px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+    transition: all ease-in-out 0.3s;
+
+    color: rgb(221, 236, 196);
+}
+
+.footerLink {
+    height: 75px; 
+    vertical-align: middle; 
+    margin-right: 10px;
 }
