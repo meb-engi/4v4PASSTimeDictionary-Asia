@@ -13,6 +13,7 @@ const disableDarkMode = () => {
     document.body.classList.remove("darkmode")
     localStorage.setItem("darkmode", null)
     if (document.getElementById("apta")) document.getElementById("apta").src = "images/logo/APTA_LOGO_light.webp";  //changes logo
+    if (document.getElementById("bglogo")) document.getElementById("bglogo").src = "images/logo/OCE_LOGO.webp";  //changes logo
     if (document.getElementById("throbber")) document.getElementById("throbber").src = "images/THROBBER_light.webp";  //changes logo
 }
 
