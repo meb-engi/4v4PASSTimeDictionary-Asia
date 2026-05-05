@@ -354,8 +354,8 @@ a {
 
 footer {
     text-align: center;
-    background-color: var(--btncolor);
-    padding: 25px;
+    background-color: var(--divbc);
+    padding: 2px;
     
     display: flex;
     justify-content: center;
