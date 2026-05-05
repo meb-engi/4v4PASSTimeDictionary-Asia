@@ -27,6 +27,8 @@
 
     --msOpacity: 0.9; /* mainstuff opacity */
 
+    --loadingtxt: rgb(204, 204, 204);
+
     transition: all 0.3s ease;
 }  
 .darkmode{
@@ -57,6 +59,8 @@
     --preloader: rgb(26, 26, 26); /* preloader background color */
 
     --msOpacity: 0.95; /* mainstuff opacity */
+
+    --loadingtxt: rgb(51, 51, 51);
 
     transition: all 0.3s ease;
 }
@@ -383,4 +387,51 @@ html,body{
     padding: 0;
     margin: 0;
     background-color: var(--bg);
+}
+.loading {
+    color: var(--text);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+    font-style: italic, bold;
+}
+.loading-item {
+    position: relative;
+    animation: bounce .5s ease infinite alternate
+}
+.loading-item:nth-child(2) {
+    animation-delay: .1s;
+}
+.loading-item:nth-child(3) {
+    animation-delay: .2s;
+}
+.loading-item:nth-child(4) {
+    animation-delay: .3s;
+}
+.loading-item:nth-child(5) {
+    animation-delay: .4s;
+}
+.loading-item:nth-child(6) {
+    animation-delay: .5s;
+}
+.loading-item:nth-child(7) {
+    animation-delay: .6s;
+}
+.loading-item:nth-child(8) {
+    animation-delay: .7s;
+}
+.loading-item:nth-child(9) {
+    animation-delay: .8s;
+}
+.loading-item:nth-child(10) {
+    animation-delay: .9s;
+}
+@keyframes bounce {
+    100% {
+        transform: translateY(-20px);
+    }
+}
+span{
+    font-size: xx-large;
 }
