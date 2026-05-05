@@ -393,7 +393,7 @@ html,body{
     align-items: center;
     justify-content: center;
     display: flex;
-    gap: 8px;
+    gap: 5px;
     font-style: italic, bold;
 }
 .loading-item {
@@ -433,5 +433,7 @@ html,body{
     }
 }
 span{
-    font-size: xx-large;
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
 }
