@@ -8,6 +8,14 @@ p{
     font-family: "Poppins", sans-serif;
 }
 
+a {
+    font-family: inherit;
+}
+
+hi {
+    font-family: inherit;
+}
+
 button {
     font-family: "Montserrat", sans-serif;
 }

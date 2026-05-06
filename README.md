@@ -1,13 +1,14 @@
-hi its me engi (the real dictionary is at [https://meb-engi.github.io/4v4PASSTimeDictionary-Asia/dictionary.html](https://meb-engi.github.io/4v4PT-Dictionary-Guide/dictionary.html))
+Hi, its meb
 
-this is a small lil project i have been cooking up for a while
-this used to be a google doc but it was tucked away in a guide in a channel in a server that isnt even the APTA server (no hate on grassroots)
-but i lowk wanted it to be more accessable so i """'ported""" it to a website
+This project started with just the [dictionary on a google doc](https://docs.google.com/document/d/1l4E-x2hFSZi9X0jbZp3QMqdXW0mzxJ8A-Rfa6WtSiWE/edit?usp=sharing), heavily inspired by the very very old ["PASS Time Terminology" document](https://docs.google.com/document/d/16XF_5OQBjfrWuA5VAnFG40xmaLY4-XxIvLpxjXuJ9NI/edit?usp=sharing) from NA.
+With very basic knowledge of html I learned from my CS class, I started making this because google docs is kinda limiting lowk.
 
-poggersww has provided help with the coding so shoutout aint no way bruh
+Shoutout to the multiple players from every region who has helped me on the dictionary. Can't do it w/o yall fr
 
-also shoutout too spoofy, evilyn, fiff, bestefar, _yee, IGMB and other players for providing input on the dictionary and guide
-
+Currently this repo is managed by me and poggers. He's done most of the heavy work setting up the repository, so ultra shoutout him !!!
 if u wanna contact us our dc is -
 meb.engi
 poggersww
+We're hella unproffessional thou so like :joy: no need to be formal
+
+"They bawl when we ball - Einstein"
